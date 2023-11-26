@@ -25,14 +25,13 @@ tl.to("#scroll-img",{
 
 var tl2 =gsap.timeline({scrollTrigger:{
     trigger:".top",
-    start:"bottom 20%",
+    start:"bottom 35%",
     end:"200% 35%",
     scrub:true,
-    // pin:true,
-    // markers:{
-    //     startColor:"purple",
-    //     endColor:"fuchsia",
-    // }
+    markers:{
+        startColor:"purple",
+        endColor:"fuchsia",
+    }
 }})
 
 
@@ -53,7 +52,7 @@ tl2.to(".btm-para2",{
 
 tl2.to("#scroll-img-2",{
     scale:".9",
-    left:"-5%",
+    left:"10%",
     // opacity:0,
 },'textmove')
 
@@ -65,7 +64,8 @@ tl2.to(".end-div",{
 
 tl2.to(".circle-div",{
     right:"-5%",
-    marginRight:"5%",
+    left:"5%",
+    // marginRight:"5%",
     // opacity:0,
 },'textmove')
 
@@ -73,14 +73,13 @@ tl2.to(".circle-div",{
 
 var tl3 =gsap.timeline({scrollTrigger:{
     trigger:".top",
-    start:"150% 20%",
-    end:"250% 20%",
+    start:"150% 30%",
+    end:"250% 35%",
     scrub:true,
-    // pin:true,
-    // markers:{
-    //     startColor:"black",
-    //     endColor:"yellow",
-    // }
+    markers:{
+        startColor:"black",
+        endColor:"yellow",
+    }
 }})
 
 
